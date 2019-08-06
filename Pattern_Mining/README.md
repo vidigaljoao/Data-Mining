@@ -1,10 +1,8 @@
 # Pattern Mining
 
-Frequent itemset mining leads to the discovery of associations and correlations among items in large transactional or relational data sets.
-If we think of the universe as the set of items available at the store, then each item has a Boolean variable representing the presence or absence of that item. Each basket can then be represented by a Boolean vector of values assigned to these variables. The Boolean vectors can be analyzed for buying patterns that reflect items that are frequently associated or purchased together. These patterns can be represented in the form of association rules.
-Rule support and confidence are two measures of rule interestingness. They respectively reflect the usefulness and certainty of discovered rules. Typically, association rules are considered interesting if they satisfy both a minimum support threshold and a minimum confidence threshold. These thresholds can be a set by users or domain experts. Additional analysis can be performed to discover interesting statistical correlations between associated items.
+**Objective:** Frequent itemset mining and discovery of associations and correlations among items in large transactional data sets from different supermarkets.
 
-This project uses MLxtend and frequent patterns are discovered using Apriori.
+This project uses Jupyter and MLxtend. The frequent patterns are discovered using Apriori. In the *needed_fun.py* file are a few fuctions used along the project.
 
 The dataset used is **`Foodmart_2000_PD.csv`**. This is a modified version of the [Foodmart 2000(2005) dataset](https://github.com/neo4j-examples/neo4j-foodmart-dataset/tree/master/data). 
 
