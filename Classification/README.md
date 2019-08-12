@@ -1,6 +1,6 @@
 # Classification
 
-Objective: **to learn to medical diagnosis patients as AML or ALL based on classification methods.**
+Objective: **learn to medical diagnosis leukemia patients as AML or ALL based on classification methods.**
 
 This project uses Jupyter and scikit-learn. In the needed_fun.py file are a few fuctions used along the project.
 
